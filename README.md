@@ -41,7 +41,7 @@ There are two options available for running the Data-Trading-Platform sample
 ##### Terminal Window 1
 
 ```
-cd fabric-samples/balance-transfer
+cd Data-Trading-Platform/
 
 ./runApp.sh
 
@@ -55,7 +55,8 @@ cd fabric-samples/balance-transfer
 * Start the simulation web service of data owner.
 
 ```
-go run DataOwnerDataBase/go-server.go
+cd DataOwnerDataBase/
+go run go-server.go
 ```
 
 ##### Terminal Window 3
@@ -67,7 +68,7 @@ instructions [https://stedolan.github.io/jq/](https://stedolan.github.io/jq/)
 
 With the application started in terminal 1, next, test the APIs by executing the script - **testAPIs.sh**:
 ```
-cd fabric-samples/balance-transfer
+cd Data-Trading-Platform/
 
 ./testAPIs.sh
 
