@@ -1,14 +1,14 @@
 {
-  "name": "balance-transfer",
+  "name": "Data-Trading-Platform",
   "version": "1.0.0",
-  "description": "A balance-transfer example node program to demonstrate using node.js SDK APIs",
+  "description": "A Data-Trading-Platform example node program to demonstrate using node.js SDK APIs",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "keywords": [
     "fabric-client sample app",
-    "balance-transfer node sample",
+    "Data-Trading-Platform node sample",
     "v1.0 fabric nodesdk sample"
   ],
   "engines": {
